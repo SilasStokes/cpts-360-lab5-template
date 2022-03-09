@@ -4,6 +4,11 @@ Follow KC's write up of the assignment here: https://eecs.wsu.edu/~cs360/showblo
 
 The command `./mk` must compile your code.
 
+If your computer cannot find the ext2 library, you may need to import them with:
+```
+sudo apt-get install e2fslibs-dev
+```
+
 ## General Tips:
 - make use of the gnu documentation of ext-2, this is the best way to become familiar with the structs and file systems. Imo the best thing you can do is be able to visualize the system in memory, then you will have no problem writing the code for it. [Documentation is linked here](https://www.nongnu.org/ext2-doc/ext2.html)
 - Come up with mneumonics for each variable that KC uses, he will be using them for the rest of the semester, e.g *ip is inode pointer, ino is inode number etc...
