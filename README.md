@@ -2,7 +2,7 @@
 
 Follow KC's write up of the assignment here: https://eecs.wsu.edu/~cs360/showblock.html
 
-It is preferred that you use the existing t.c format to place your code, however, you may modify it as long as the `mk` sh script compiles your code (which of course you may modify such that it does compile your code.)
+The command `./mk` must compile your code.
 
 ## General Tips:
 - make use of the gnu documentation of ext-2, this is the best way to become familiar with the structs and file systems. Imo the best thing you can do is be able to visualize the system in memory, then you will have no problem writing the code for it. [here](https://www.nongnu.org/ext2-doc/ext2.html)
